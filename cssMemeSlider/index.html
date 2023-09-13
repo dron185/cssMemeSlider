@@ -15,12 +15,27 @@
 	</header>
 	<main class="main">
 		<div class="slider__container">
-			<div class="slider__slides">
-				<input type="radio" name="button" id="radio1" checked>
-				<input type="radio" name="button" id="radio2">
-				<input type="radio" name="button" id="radio3">
-				<input type="radio" name="button" id="radio4">
+			<div class="slider__items">
+
+				<input type="radio" name="button" id="radio1" class="slider__input" checked>
+				<input type="radio" name="button" id="radio2" class="slider__input">
+				<input type="radio" name="button" id="radio3" class="slider__input">
+				<input type="radio" name="button" id="radio4" class="slider__input">
+
+				<div class="slider__slides">
+					<div class="slider__slide slide-1"><img src="img/01.jpg" alt="Slide1"></div>
+					<div class="slider__slide slide-2"><img src="img/02.jpg" alt="Slide2"></div>
+					<div class="slider__slide slide-3"><img src="img/03.jpg" alt="Slide3"></div>
+					<div class="slider__slide slide-4"><img src="img/04.jpg" alt="Slide4"></div>
+				</div>
+				<div class="slider__nav">
+					<label for="radio1" class="slider__label"><span class="slider__span"></span></label>
+					<label for="radio2" class="slider__label"><span class="slider__span"></span></label>
+					<label for="radio3" class="slider__label"><span class="slider__span"></span></label>
+					<label for="radio4" class="slider__label"><span class="slider__span"></span></label>
+				</div>
 			</div>
+			
 		</div>
 	</main>
 	<footer class="footer"></footer>
