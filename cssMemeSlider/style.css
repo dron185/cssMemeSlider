@@ -1,0 +1,43 @@
+/*Обнуление*/
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:inherit;
+	font-weight:inherit;
+}
+input, button {
+	border: none;
+	font-family:inherit;
+	font-size:inherit;
+}
+html, body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+	line-height: 150%;
+	background-color: burlywood;
+	color: #252b42;
+}
+
+/* -------------------- */
+
+.header__title {
+	text-align: center;
+	font-size: 2rem;
+	margin: 2rem 0;
+}
