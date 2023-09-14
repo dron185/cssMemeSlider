@@ -48,14 +48,9 @@ html, body {
 }
 
 .slider__container {
-	/* max-width: 74vh; */
 	max-width: 105vh;
 	margin: 2rem auto;
 	overflow: hidden;
-}
-
-.slider__items {
-	
 }
 
 .slider__input {
@@ -64,7 +59,6 @@ html, body {
 
 .slider__slides {
 	display: flex;
-	/* gap: 1rem; */
 	margin-bottom: 1.5rem;
 	width: 400%;
 	height: 100%;
@@ -179,6 +173,7 @@ html, body {
 	margin-top: -6rem;
 }
 
+/*----------------Media--------------------*/
 
 @media (max-width: 767px)  {
 	.slider__text-nav {
