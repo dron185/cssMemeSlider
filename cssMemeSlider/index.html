@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/favicon.ico">
+	<title>CSS Meme Slider</title>
+</head>
+<body>
+	<header class="header">
+		<h1 class="header__title">CSS Meme Slider</h1>
+	</header>
+	<main class="main">
+		<div class="slider__container">
+			<div class="slider__items">
+
+				<input type="radio" name="button" id="radio1" class="slider__input" checked>
+				<input type="radio" name="button" id="radio2" class="slider__input">
+				<input type="radio" name="button" id="radio3" class="slider__input">
+				<input type="radio" name="button" id="radio4" class="slider__input">
+
+				<div class="slider__slides">
+					<div class="slider__slide slide-1"><img src="img/001.jpg" alt="Slide1"></div>
+					<div class="slider__slide"><img src="img/002.jpg" alt="Slide2"></div>
+					<div class="slider__slide"><img src="img/003.jpg" alt="Slide3"></div>
+					<div class="slider__slide"><img src="img/004.jpg" alt="Slide4"></div>
+				</div>
+
+				<div class="slider__text-nav">
+					<div class="slider__text">
+						<div class="slider__text-1 text">When is it summer already?</div>
+						<div class="text">After watching the previous meme</div>
+						<div class="text">When I've already made a CSS Meme Slider</div>
+						<div class="text">Thanks for your attention!</div>
+					</div>
+					<div class="slider__nav">
+						<label for="radio1" id="label1" class="slider__label"><span class="slider__span"></span></label>
+						<label for="radio2" id="label2" class="slider__label"><span class="slider__span"></span></label>
+						<label for="radio3" id="label3" class="slider__label"><span class="slider__span"></span></label>
+						<label for="radio4" id="label4" class="slider__label"><span class="slider__span"></span></label>
+					</div>
+				</div>
+				
+			</div>	
+		</div>
+	</main>
+	<footer class="footer"></footer>
+</body>
+</html>
